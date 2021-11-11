@@ -8,3 +8,12 @@ for guest_list in guest_lists:
 
 print(guest_lists)
 print( "can't participate because of something at home")
+
+hdd_lists = ['toshba', 'segate', 'wd']
+
+for hdd_list in hdd_lists:
+    print(hdd_list)
+
+
+for hdd_list in hdd_list:
+    print
