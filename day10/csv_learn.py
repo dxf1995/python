@@ -1,0 +1,15 @@
+import csv
+'''
+
+with open('nvme1n1.csv', newline='') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter='', quotechar='|')
+    for row in spamreader:
+        print(', '.join(row))
+
+
+'''
+
+with open('E:\python/day10/nvme1n1.csv', newline='', encoding='utf-8') as file_obj:
+    reader = csv.reader(file_obj)
+    for row in reader:
+        print(reader)
